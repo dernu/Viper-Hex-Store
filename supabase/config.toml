@@ -1,0 +1,10 @@
+project_id = "njblwiqfijoxmwsjxkvt"
+
+[functions.create-payhere-checkout]
+verify_jwt = true
+
+[functions.payhere-notify]
+verify_jwt = false
+
+[functions.create-download-link]
+verify_jwt = true
